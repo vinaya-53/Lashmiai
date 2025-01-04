@@ -8,8 +8,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   try {
-    await dotenv.load(fileName: "key.env");
-    debugPrint("Environment variables loaded: ${dotenv.env}");
+    await dotenv.load(fileName: ".env");
   } catch (e) {
     debugPrint("Failed to load environment variables: $e");
   }
