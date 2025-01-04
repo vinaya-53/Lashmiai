@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:lakshmiai/View/Pages/community.dart';
 import '../../../api_serv.dart';
 
+
+
 class chatbotpge extends StatefulWidget {
   const chatbotpge({super.key});
 
@@ -21,11 +23,17 @@ class _chatbotpgeState extends State<chatbotpge> {
         _response = "Lekshmi is thinking...";
       });
 
+        try {
       final response = await _chatService.getChatResponse(userMessage);
-
       setState(() {
         _response = response;
       });
+    } catch (e) {
+      setState(() {
+        _response = "Error: Failed to fetch response. Please try again later.";
+      });
+      debugPrint("Error fetching chatbot response: $e");
+    }
 
       _textController.clear();
     }
