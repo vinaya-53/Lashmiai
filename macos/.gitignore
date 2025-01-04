@@ -6,7 +6,3 @@
 **/dgph
 **/xcuserdata/
 
-# Ignore .env and key.env files
-*.env
-assests/.env
-assests/key.env
