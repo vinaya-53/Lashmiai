@@ -44,5 +44,5 @@ app.*.map.json
 
 # Ignore .env and key.env files
 *.env
-assets/.env
-assets/key.env
+/assets/.env
+/assets/key.env
