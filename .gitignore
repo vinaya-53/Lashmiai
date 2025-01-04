@@ -43,6 +43,7 @@ app.*.map.json
 /android/app/release
 
 # Ignore .env and key.env files
-*.env
 /assets/.env
 /assets/key.env
+assets/key.env:1
+assets/.env:1
