@@ -44,4 +44,8 @@ app.*.map.json
 
 # Ignore .env and key.env files
 assets/key.env
+<<<<<<< HEAD
 assets/.env
+=======
+assets/.env
+>>>>>>> origin/master
