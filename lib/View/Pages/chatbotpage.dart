@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lakshmiai/View/Pages/community.dart';
-<<<<<<< HEAD
-import 'package:lakshmiai/View/Widgets/txtfld.dart';
-=======
 import '../../../api_serv.dart';
 
 
->>>>>>> origin/master
 
 class chatbotpge extends StatefulWidget {
   const chatbotpge({super.key});

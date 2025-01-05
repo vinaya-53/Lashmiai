@@ -11,12 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-<<<<<<< HEAD
-
-=======
   http: ^1.2.2
   flutter_dotenv: ^5.0.2
->>>>>>> origin/master
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -31,7 +28,4 @@ flutter:
     - assets/btn.png
     - assets/btnn.png
     - assets/btnnn.png  
-<<<<<<< HEAD
-=======
     - assets/.env
->>>>>>> origin/master
